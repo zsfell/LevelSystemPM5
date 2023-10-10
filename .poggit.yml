@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/zsfell/LevelSystemPM5
+build-by-default: true
+branches:
+- main
+projects:
+  LevelSystemPM5:
+    path: ""
+...
