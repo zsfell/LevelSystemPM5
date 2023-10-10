@@ -1,0 +1,17 @@
+name: LevelSystem-zs
+api: [5.0.0]
+main: Laith98Dev\LevelSystem\Main
+author: Laith98Dev, fixed zsfell
+website: https://github.com/Laith98Dev
+version: 1.0.2
+description: Advanced LevelSystem for PocketMine-MP
+depend: [PureChat, PurePerms]
+
+commands:
+  ls:
+    description: LevelSystem Command
+    permission: levelsystem.command.staff
+
+permissions:
+  levelsystem.command.staff:
+    default: op
